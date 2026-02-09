@@ -84,4 +84,4 @@ jobs:
       - name: Output information
         run: | 
           echo "This is the report job"
-          echo ${{ toJSON(github) }}
+          echo "${{ toJSON(github) }}"
